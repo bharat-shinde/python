@@ -6,7 +6,7 @@ import json
 TWITTER_URL = 'https://api.twitter.com/1.1/friends/list.json'
 
 while True:
-    print ''
+    print ""
     acct = raw_input('Enter Twitter Account:')
     if ( len(acct) < 1 ) : break
     # Count: # of friends
